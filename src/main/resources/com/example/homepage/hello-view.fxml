@@ -10,11 +10,15 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <BorderPane fx:id="border" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.homepage.HelloController">
    <center>
       <AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="883.0" stylesheets="@styles.css" BorderPane.alignment="CENTER">
          <children>
+            <ImageView fx:id="background" fitHeight="499.0" fitWidth="883.0" opacity="0.78" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@bank%20image.jpg" />
+               </image>
+            </ImageView>
             <ImageView fitHeight="173.0" fitWidth="131.0" layoutX="376.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@logo2.png" />

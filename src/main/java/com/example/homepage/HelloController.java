@@ -52,6 +52,7 @@ public class HelloController implements Initializable {
     @FXML
     private ImageView transferImg;
     @FXML
+    private ImageView background;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -70,6 +71,8 @@ public class HelloController implements Initializable {
             billImg.setFitWidth(width/8);
             loanImg.setFitWidth(width/8);
             transferImg.setFitWidth(width/8);
+            background.setScaleX(width/600);
+
 
 
         });
@@ -90,6 +93,7 @@ public class HelloController implements Initializable {
             billImg.setFitHeight(height/6);
             loanImg.setFitHeight(height/6);
             transferImg.setFitHeight(height/6);
+            background.setScaleY(height/550);
 
         });
     }
