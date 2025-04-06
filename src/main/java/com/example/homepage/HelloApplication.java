@@ -11,12 +11,15 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 883, 458);
+        Scene scene = new Scene(fxmlLoader.load(), 883, 558);
         scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
         stage.setTitle("HomePage");
         stage.setScene(scene);
         stage.show();
-        stage.setResizable(false);
+        stage.setResizable(true);
+        stage.setMinHeight(595);
+        stage.setMinWidth(883);
+
 
     }
 
