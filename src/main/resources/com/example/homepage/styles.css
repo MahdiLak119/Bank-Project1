@@ -45,4 +45,21 @@
 #taskBar{
     -fx-background-color: white;
 }
+#message{
+    -fx-background-radius: 20px;
+    -fx-background-color:#6ea0f5 ;
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-border-radius: 20px;
+    -fx-border-color: white;
+    -fx-border-width: 5px;
+}
+#signInBox{
+    -fx-background-radius: 20px;
+    -fx-background-color:#A7D9FF ;
+    -fx-border-radius: 20px;
+    -fx-border-color: white;
+    -fx-border-width: 5px;
+
+}
 
