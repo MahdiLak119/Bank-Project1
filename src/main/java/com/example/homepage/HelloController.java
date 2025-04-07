@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 package com.example.homepage;
 
 import javafx.fxml.FXML;
@@ -98,3 +99,5 @@ public class HelloController implements Initializable {
         });
     }
 }
+=======
+>>>>>>> Stashed changes
